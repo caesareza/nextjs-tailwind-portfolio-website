@@ -12,7 +12,7 @@ export const menu = [
     href: '/work',
   },
   {
-    label: 'Hobby',
-    href: '/hobby',
+    label: 'Testimoni',
+    href: '/testimoni',
   },
 ]
