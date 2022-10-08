@@ -1,7 +1,13 @@
 import React from 'react'
+import Head from 'next/head'
 
 const AboutMe = () => (
   <section id="about-me" className="flex flex-col lg:gap-52 lg:flex-row">
+    <Head>
+      <title>About - Mathilde Langevin</title>
+      <meta name="description" content="About Mathilde Langevin Portfolio" />
+    </Head>
+
     <div className="space-y-5 grid place-content-center">
       <h1 className="text-5xl">
         <span>Artist</span> <br />

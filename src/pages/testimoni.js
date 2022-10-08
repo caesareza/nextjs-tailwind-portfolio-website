@@ -1,7 +1,16 @@
 import React from 'react'
+import Head from 'next/head'
 
 const Testimoni = () => (
   <section id="testimoni" className="relative">
+    <Head>
+      <title>Testimoni - Mathilde Langevin</title>
+      <meta
+        name="description"
+        content="Testimoni Mathilde Langevin Portfolio"
+      />
+    </Head>
+
     <div className="h-[700px]">
       <img
         src="/photo/pexels-mathilde-langevin-testimoni.jpg"

@@ -1,8 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Contact = () => (
   <section id="contact" className="relative">
+    <Head>
+      <title>Contact - Mathilde Langevin</title>
+      <meta name="description" content="Contact Mathilde Langevin" />
+    </Head>
+
     <div className="h-[700px]">
       <img
         src="/photo/pexels-mathilde-langevin-contact.jpg"

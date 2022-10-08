@@ -1,7 +1,13 @@
 import React from 'react'
+import Head from 'next/head'
 
 const Work = () => (
   <section id="work" className="flex flex-col lg:flex-row">
+    <Head>
+      <title>Work - Mathilde Langevin</title>
+      <meta name="description" content="Contact Mathilde Langevin" />
+    </Head>
+
     <div className="flex gap-3">
       <div>
         <img

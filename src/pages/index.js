@@ -1,9 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className="flex flex-col lg:flex-row lg:space-x-10">
+      <Head>
+        <title>Mathilde Langevin Portfolio</title>
+        <meta
+          name="description"
+          content="Home page Mathilde Langevin Portfolio"
+        />
+      </Head>
       <div className="grid place-content-center text-center lg:text-left">
         <h1 title="Mathilde Langevin" className="text-[80px] leading-[70px]">
           Mathilde Langevin
