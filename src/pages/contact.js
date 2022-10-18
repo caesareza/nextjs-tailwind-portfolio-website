@@ -21,10 +21,12 @@ const Contact = () => (
         <span>Get in</span> <br />
         <span className="font-bold">Touch</span>
       </h1>
-      <p>123 Anywhere St., Any City ST 12345 hello@reallygreatsite.com</p>
+      <p>
+        123 Anywhere St., Any City ST 12345 <br /> hello@reallygreatsite.com
+      </p>
       <nav className="mt-20">
         <Link href="/contact">
-          <a className="border border-slate-500 p-1 px-5 uppercase font-bold">
+          <a className="border border-slate-500 p-3 px-5 uppercase font-bold">
             Send an Email
           </a>
         </Link>

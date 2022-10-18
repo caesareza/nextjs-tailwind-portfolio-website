@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  font-family: 'Lato', sans-serif;
+  @apply font-['Lato'] font-[sans-serif]
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Raleway', sans-serif;
+  @apply font-['Raleway'] font-[sans-serif]
 }
 
 .logo{

@@ -18,14 +18,14 @@ export default function Header() {
   }
 
   return (
-    <header className="border-b border-slate-500 py-5 mb-5">
-      <div className="container mx-auto flex justify-between px-5">
+    <header className="border-b border-slate-500 mb-5">
+      <div className="container mx-auto flex justify-between p-5">
         <div className="logo">
           <Link href="/">
             <a>Mathilde.</a>
           </Link>
         </div>
-        <ul className="flex gap-5 hidden lg:flex">
+        <ul className="gap-5 hidden lg:flex">
           {menu.map((value, index) => (
             <li key={index}>
               <Link href={value.href}>
