@@ -29,14 +29,16 @@ export default function Header() {
           {menu.map((value, index) => (
             <li key={index}>
               <Link href={value.href}>
-                <a>{value.label}</a>
+                <a className="hover:text-amber-600">{value.label}</a>
               </Link>
             </li>
           ))}
         </ul>
         <div className="ml-auto mr-3 lg:ml-0 lg:mr-0">
           <Link href="/contact">
-            <a className="border border-slate-500 p-1 px-5">Contact</a>
+            <a className="border border-slate-500 p-1 px-5 hover:bg-amber-300">
+              Contact
+            </a>
           </Link>
         </div>
         <div className="block lg:hidden">

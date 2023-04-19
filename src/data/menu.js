@@ -15,4 +15,8 @@ export const menu = [
     label: 'Testimoni',
     href: '/testimoni',
   },
+  // {
+  //   label: 'Blog',
+  //   href: '/blog',
+  // },
 ]
